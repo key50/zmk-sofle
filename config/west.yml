@@ -35,7 +35,7 @@ manifest:
       remote: cormoran
       revision: main
       import: true
-    - name: zmk
+    - name: zmk+custom-studio-protocol
       remote: cormoran
       revision: main+custom-studio-protocol
   self:
