@@ -38,5 +38,7 @@ manifest:
     - name: zmk+custom-studio-protocol
       remote: cormoran
       revision: main+custom-studio-protocol
+      import:
+        file: app/west.yml
   self:
     path: config
