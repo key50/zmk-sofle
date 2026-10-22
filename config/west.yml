@@ -35,9 +35,9 @@ manifest:
       remote: cormoran
       revision: main
       import: true
-    - name: zmk-studio-protocol
+    - name: zmk
       remote: cormoran
-      repo-path: zmk
+      #repo-path: zmk
       revision: v0.3-branch+custom-studio-protocol
       import:
         file: app/west.yml
