@@ -8,9 +8,9 @@ manifest:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: main
-#    - name: zmk
-#      remote: cormoran
-#      revision: v0.3-branch+dya
+    - name: zmk
+      remote: cormoran
+      revision: v0.3-branch+dya
 #      import: app/west.yml
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
@@ -37,8 +37,8 @@ manifest:
       import: true
     - name: zmk
       remote: cormoran
-      #repo-path: zmk
-      revision: v0.3-branch+custom-studio-protocol
+      repo-path: zmk
+      revision: main+custom-studio-protocol
       import:
         file: app/west.yml
   self:
