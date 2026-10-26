@@ -8,10 +8,10 @@ manifest:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: main
-#    - name: zmk
-#      remote: cormoran
-#      revision: v0.3-branch+dya
-#      import: app/west.yml
+    - name: zmk
+      remote: cormoran
+      revision: main+dya
+      import: app/west.yml
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
@@ -21,9 +21,9 @@ manifest:
     - name: zmk-module-battery-history
       remote: cormoran
       revision: main
-    - name: zmk-module-settings-rpc
-      remote: cormoran
-      revision: main
+#    - name: zmk-module-settings-rpc
+#      remote: cormoran
+#      revision: main
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: main
@@ -35,11 +35,11 @@ manifest:
       remote: cormoran
       revision: main
       import: true
-    - name: zmk
-      remote: cormoran
-      repo-path: zmk
-      revision: main+custom-studio-protocol
-      import:
-        file: app/west.yml
+#    - name: zmk
+#      remote: cormoran
+#     repo-path: zmk
+#      revision: main+custom-studio-protocol
+#      import:
+#        file: app/west.yml
   self:
     path: config
